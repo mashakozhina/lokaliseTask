@@ -1,0 +1,11 @@
+{
+    "baseUrl":"https://app.stage.lokalise.cloud/",
+    "viewportWidth": 1000,
+    "viewportHeight": 1000,
+    "video": false,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
+    "email": "test@gmail.com",
+    "password": "11111111",
+    "project": "test",
+    "secondProject": "test"
+}
