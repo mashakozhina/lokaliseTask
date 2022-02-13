@@ -36,7 +36,7 @@ const addKey = (keyName) => {
 cy.get(dataTestIds.addKeyButton)
       .click()
       .get(dataTestIds.keyName)
-      .type()
+      .type(keyName)
       .get(dataTestIds.platformField)
       .click()
       .get(dataTestIds.platformSelection)

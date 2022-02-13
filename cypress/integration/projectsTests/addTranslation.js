@@ -22,22 +22,23 @@ describe("Add first project, logged in user", () => {
   });
 
   it("Add first key, logged in user", () => {
-    cy.get(".lokalise-editor-wrapper")
+    cy.get(dataTestIds.keyContainer)
+      .should('be.visible');
+      cy.reload()
+    cy.get(dataTestIds.keyValue)
       .eq(0)
       .click({ force: true })
-      .type("test")
-      .get(".editor-icon-button")
+      .type('test')
+      .get(dataTestIds.submitIcon)
       .eq(0)
       .click();
-    cy.get(".lokalise-editor-wrapper")
+    cy.get(dataTestIds.keyValue)
       .eq(1)
       .click({ force: true })
-      .type("test")
-      .get(".editor-icon-button")
+      .type('test')
+      .get(dataTestIds.submitIcon)
       .eq(0)
       .click()
-      .get(".highlight")
-      .eq(0)
-      .should("include", "test");
+      .get('div').contains('test')
   });
 });

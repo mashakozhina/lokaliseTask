@@ -26,6 +26,8 @@ const platformField = '#s2id_device-s';
 const platformSelection = '.select2-result-label';
 const saveButton = '.hotkey-span-button-primary';
 const keyContainer = '#endless-keys-container';
+const keyValue = '.lokalise-editor-wrapper';
+const submitIcon = '.editor-icon-button';
 
 //Allerts
 const successAlert = '.alert-success';
@@ -54,5 +56,7 @@ export default {
   platformField,
   platformSelection,
   saveButton,
-  keyContainer
+  keyContainer,
+  keyValue,
+  submitIcon
 };

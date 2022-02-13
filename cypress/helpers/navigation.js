@@ -6,10 +6,6 @@ const openApp = () => {
   .get(dataTestIds.homePageWrapper).should('be.visible');
 };
 
-const goToProject = (product) => {
-};
-
 export default {
-  openApp,
-  goToProject
+  openApp
 };

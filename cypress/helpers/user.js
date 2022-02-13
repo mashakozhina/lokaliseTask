@@ -1,6 +1,3 @@
-import paths from "../fixtures/paths.js";
-import dataTestIds from "../fixtures/dataTestIds.js";
-import navigation from "./navigation.js";
 
 const buildUser = () => {
   return {

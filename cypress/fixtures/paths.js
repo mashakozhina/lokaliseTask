@@ -1,6 +1,4 @@
-const root  = () => {
-  return `${Cypress.config('baseUrl')}`;
-};
+const root  = () => `${Cypress.config('baseUrl')}`;
 const projectsPage = '/projects';
 const projectPage = '/project';
 
